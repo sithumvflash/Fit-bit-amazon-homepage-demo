@@ -32,10 +32,21 @@ body {
 
 .ProductPreview {
   width: 50%;
+  position: relative;
 }
 
 .ProductPreview>img {
   width: 100%;
+}
+
+.FeatureData {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
 }
 
 .ProductData {
@@ -84,7 +95,7 @@ body {
   border-radius: 8px;
   margin-right: 12px;
   cursor: pointer;
-  border: 2px solid teal;
+  border: 2px solid orange;
 }
 
 .FeatureItem {
@@ -123,3 +134,14 @@ body {
   color: white;
   background-color: gray;
 } */
+
+.PrimaryButton {
+  color: white;
+  background-color: orange;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 0;
+  padding: 12px 24px;
+
+  margin-top: 30px;
+}
